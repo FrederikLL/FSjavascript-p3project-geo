@@ -10,13 +10,14 @@
  ### Explain the basic building block in a React Native Application and the difference(s) between a React Application and a React Native App.
       
  ###  Explain and demonstrate ways to handle User Input in a React Native Application
- 
+ ```javascript
  <TextInput 
             style={{height:40, borderColor: 'gray', borderWidth: 1}}
             onChangeText={text=>onChangeTextPass(text)}
             value={textValuePass}/>
             <MyButton style={{ flex: 2 }} onPressButton={()=>loginreq(textValueName,textValuePass,position.longitude,position.latitude)} //not sure bout syntax here for loginreq function but use textinputs above and position usestate
         txt="Login with location" /> 
+ ```
       
  ### Explain and demonstrate how to handle state in a React Native Application
       
