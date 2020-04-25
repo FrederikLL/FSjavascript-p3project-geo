@@ -1,11 +1,13 @@
 
 Client:
 https://expo.io/@fredll/p3project
+
 Expo isnt allowing iOS phones, other than the app owner's, to scan QR codes or test published expo projects. It needs to be standalone deployed for it to work on others iOS' (rules from apple i suppose). It works on my personal iOS. It works on any android. 
 
 
 Backend:
 https://fredll.dk/
+
 is down unless i go start it up from droplet
 I wanted to put a hostname on it like p3project.fredll.dk. But i retained the same droplet from last year and i cant seem to make https work for these hostnames. The hostname is also up, but no https. 
 
@@ -29,7 +31,7 @@ I wanted to put a hostname on it like p3project.fredll.dk. But i retained the sa
             <MyButton style={{ flex: 2 }} onPressButton={()=>loginreq(textValueName,textValuePass,position.longitude,position.latitude)} 
         txt="Login with location" /> 
  ```
- Asthe textinput here is being changed, it is changing the value of a hook. We use this value in our loginreq function that is used
+ As the textinput here is being changed, it is changing the value of a hook. We use this value in our loginreq function that is used
  when the button is pressed.
       
  ### Explain and demonstrate how to handle state in a React Native Application
