@@ -15,9 +15,18 @@ I wanted to put a hostname on it like p3project.fredll.dk. But i retained the sa
  
  
  ### What is meant by the React Native Paradigm "Learn once, write anywhere" compared to for example the original (now dead) idea with Java "Write Once, run everywhere".
+ 
+ That native is one code base (one thing to learn) that can run anywhere, be understood eveything. it can be written anywhere to any system.
+ 
+ That anything could run java code.
+ 
+ From natives webpage:
+ ... the same set of engineers should be able to build applications for whatever platform they choose, without needing to learn a fundamentally different set of technologies for each. We call this approach “learn once, write anywhere.”
        
        
  ### In React Native, which parts of your code gets compiled to Native Code (Widgets) and which parts do NOT?
+ 
+ I believe anything in the return statement of app. This is what is being rendered.
       
       
  ### Explain the basic building block in a React Native Application and the difference(s) between a React Application and a React Native App.
