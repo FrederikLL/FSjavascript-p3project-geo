@@ -15,9 +15,11 @@
             style={{height:40, borderColor: 'gray', borderWidth: 1}}
             onChangeText={text=>onChangeTextPass(text)}
             value={textValuePass}/>
-            <MyButton style={{ flex: 2 }} onPressButton={()=>loginreq(textValueName,textValuePass,position.longitude,position.latitude)} //not sure bout syntax here for loginreq function but use textinputs above and position usestate
+            <MyButton style={{ flex: 2 }} onPressButton={()=>loginreq(textValueName,textValuePass,position.longitude,position.latitude)} 
         txt="Login with location" /> 
  ```
+ Asthe textinput here is being changed, it is changing the value of a hook. We use this value in our loginreq function that is used
+ when the button is pressed.
       
  ### Explain and demonstrate how to handle state in a React Native Application
       
